@@ -45,4 +45,6 @@ security.authentication-types=wpa2-psk
 add action=set-priority chain=postrouting new-priority=from-dscp-high-3-bits passthrough=yes
 ```
 
+7. Set up DHCP server lease time to 8-24 hours
+
 Done!
