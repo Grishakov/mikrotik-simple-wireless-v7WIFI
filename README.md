@@ -20,7 +20,7 @@ The configuration of wireless interfaces will be lost!
 /tool/fetch url="https://raw.githubusercontent.com/Grishakov/mikrotik-simple-wireless-v7WIFI/main/cfg-wifi.rsc" mode=https
 ```
 
-4. Change SSID and password:
+4. Change SSID, password and country (/interface/wifi/radio/reg-info country= and press TAB):
 ```
 /file/edit cfg-wifi.rsc value-name=contents
 ```
