@@ -1,6 +1,6 @@
 
 This is a simple script for setting up Wi-Fi on a Mikrotik hAP (ac2,ac3,ax2,ax3) router. 
-Single SSID for two bands.
+Single SSID for two bands. 
 Mikrotik hAP AC2, Mikrotik hAP AC3, Mikrotik hAP AX2, Mikrotik hAP AX3.
 
 The settings are only applicable for wifi-qcom and wifi-qcom-ac drivers.
