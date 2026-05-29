@@ -1,8 +1,8 @@
 #Делаем резервную копию
 /interface/wifi/export file=wifibackup show-sensitive
-#
+# Делаем время аренды dhcp 24 часа
+/ip/dhcp-server/set [find ] lease-time=24h
 # Делаем сброс беспроводных интерфейсов
-#
 /interface/wifi/reset 0,1
 # Надо заменить ssid=IRRADIATOR и .passphrase=PASSWORD на свои
 /interface wifi configuration
